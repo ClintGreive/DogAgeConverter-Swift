@@ -13,6 +13,8 @@
 		26AD06C519D6142A00E9DDD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26AD06C419D6142A00E9DDD5 /* Images.xcassets */; };
 		26AD06C819D6142A00E9DDD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26AD06C619D6142A00E9DDD5 /* LaunchScreen.xib */; };
 		26AD06D419D6142A00E9DDD5 /* Dog_Age_ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AD06D319D6142A00E9DDD5 /* Dog_Age_ConverterTests.swift */; };
+		26AD06DE19D614CD00E9DDD5 /* bailey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26AD06DD19D614CD00E9DDD5 /* bailey.jpg */; };
+		26AD06E019D6151000E9DDD5 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26AD06DF19D6151000E9DDD5 /* bg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		26AD06CD19D6142A00E9DDD5 /* Dog Age ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dog Age ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26AD06D219D6142A00E9DDD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26AD06D319D6142A00E9DDD5 /* Dog_Age_ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog_Age_ConverterTests.swift; sourceTree = "<group>"; };
+		26AD06DD19D614CD00E9DDD5 /* bailey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bailey.jpg; sourceTree = "<group>"; };
+		26AD06DF19D6151000E9DDD5 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		26AD06BB19D6142A00E9DDD5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				26AD06DF19D6151000E9DDD5 /* bg.jpg */,
+				26AD06DD19D614CD00E9DDD5 /* bailey.jpg */,
 				26AD06BC19D6142A00E9DDD5 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,7 +198,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26AD06E019D6151000E9DDD5 /* bg.jpg in Resources */,
 				26AD06C319D6142A00E9DDD5 /* Main.storyboard in Resources */,
+				26AD06DE19D614CD00E9DDD5 /* bailey.jpg in Resources */,
 				26AD06C819D6142A00E9DDD5 /* LaunchScreen.xib in Resources */,
 				26AD06C519D6142A00E9DDD5 /* Images.xcassets in Resources */,
 			);
